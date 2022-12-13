@@ -1,5 +1,5 @@
 import axios from "axios"
-import {urlAllPost} from '../domain/entity/const/url'
+import {urlAllPost} from '../domain/entity/models/const/url'
 import { dataImplementation } from "../domain/interactors/dataStructure"
 
 export const allPost = async (setLoading: Function, setStore: Function) => {

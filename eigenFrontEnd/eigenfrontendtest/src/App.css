@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.wfourth{
+  width: 25%;
+}
+
+.wthird{
+  width: 33%;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.bg-transparent{
+  background-color: transparent;
+}
+
+.border-none{
+  border-style: none;
+}
+
+.bg-slate-200{
+  background-color: rgb(226 232 240);
+}
+
+.bg-neutral-100{
+  background-color: rgb(245 245 245);
+}
+
+.text-left{
+  text-align: left;
+}
+
+.mx-20{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.mx-10{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.cardMapped{
+  transition: all 0.5s ease;
+}
+
+.cardMapped:hover{
+  background-color: #1E40AF;
+  color: rgb(255 255 255);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.kembali{
+  cursor: pointer;
+  background-color: #1E40AF;
+  color: #ffffff;
+  border-style: none;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border-radius: 0.5rem;
+  letter-spacing: 0.15em;
+  transition: all 0.25s ease;
+}
+
+.kembali:hover{
+  opacity: 0.5;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  letter-spacing: 0.25em;
+  transition: all 0.5s ease;
+}
+
+.bg-inherit{
+  background-color: inherit;
+}
+
+.text-inherit{
+  color: inherit;
+}
+
+.animate-bounce{
+  animation: bounce 1s infinite;
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+}

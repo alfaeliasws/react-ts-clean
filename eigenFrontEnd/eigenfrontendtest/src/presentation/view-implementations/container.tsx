@@ -21,7 +21,7 @@ const Container: React.FC<ContainerProps> = ({title}) => {
             <div>
                 {
                     loading ?
-                        <LoadingPage/> :
+                        <LoadingPage text="Loading..."/> :
                         <ContentContainer data={store} />
                 }
 

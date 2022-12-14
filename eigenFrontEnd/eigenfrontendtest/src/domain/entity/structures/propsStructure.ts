@@ -1,9 +1,5 @@
 import { Post } from "./postStructure"
 import { MouseEventHandler } from "react"
-import { Typography } from "antd"
-
-export const {Title, Paragraph} = Typography
-
 export interface ContainerProps {
     title: string
 }
@@ -28,3 +24,9 @@ export interface PageProps {
 export interface KembaliProps {
     onClick: MouseEventHandler<HTMLButtonElement>
 }
+
+export interface LoadingProps {
+    text: string
+}
+
+export type PageViewProps = PageProps & onClickProps

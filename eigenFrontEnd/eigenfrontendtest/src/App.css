@@ -121,7 +121,7 @@
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 0.875rem;
-  font-weight: 700; 
+  font-weight: 700;
   line-height: 1.25rem;
   letter-spacing: 0.15em;
   transition: all 0.25s ease;
@@ -173,4 +173,16 @@
 
 .max-w-4xl {
   max-width: 42rem;
+}
+
+.tracking-1{
+  letter-spacing: 0.1em;
+}
+
+.leading-1{
+  line-height: 2rem;
+}
+
+.weighted-font{
+  font-weight: 600;
 }

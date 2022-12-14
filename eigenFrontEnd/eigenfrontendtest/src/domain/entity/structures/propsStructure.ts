@@ -24,3 +24,7 @@ export interface onClickProps {
 export interface PageProps {
     data: Post
 }
+
+export interface KembaliProps {
+    onClick: MouseEventHandler<HTMLButtonElement>
+}

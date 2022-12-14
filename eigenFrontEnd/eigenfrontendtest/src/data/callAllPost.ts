@@ -14,3 +14,8 @@ export const allPost = async (setLoading: Function, setStore: Function) => {
         console.error(err)
     }
 }
+
+export const allPostWithoutState = async () => {
+    const result = await axios.get(urlAllPost)
+    return dataImplementation(result.data.articles)
+}

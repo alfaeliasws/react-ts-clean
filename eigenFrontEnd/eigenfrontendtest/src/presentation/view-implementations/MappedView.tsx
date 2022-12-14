@@ -5,7 +5,7 @@ import { CardMapped } from "../view-components/CardMapped";
 export const MappedView: React.FC<MappedContentProps> = ({data, onClick}) => {
 
     return (
-        <div className="flex flex-wrap w-full justify-center">
+        <div className="flex flex-wrap w-full justify-center" data-testid="mapped-view">
             {
                 data.map((item) => {
                     return (

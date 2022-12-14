@@ -1,8 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Container from  './presentation/view-implementations/container'
 import { Title } from './domain/entity/models/const/Title';
+import Container from './presentation/view-implementations/Container';
 
 function App() {
   return (

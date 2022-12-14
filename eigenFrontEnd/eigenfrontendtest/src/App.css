@@ -113,26 +113,29 @@
 
 .kembali{
   cursor: pointer;
-  background-color: #1E40AF;
-  color: #ffffff;
-  border-style: none;
+  background-color: #ffffff;
+  color: #000000;
+  border-width: 5px;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 0.875rem;
+  font-weight: 700; 
   line-height: 1.25rem;
-  border-radius: 0.5rem;
   letter-spacing: 0.15em;
   transition: all 0.25s ease;
 }
 
 .kembali:hover{
-  opacity: 0.5;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  color: #ffffff;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-width: 5px;
+  border-color:  #1E40AF;
+  background-color: #1E40AF;
   letter-spacing: 0.25em;
   transition: all 0.5s ease;
 }
@@ -158,4 +161,16 @@
       animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
     }
   }
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.max-w-4xl {
+  max-width: 42rem;
 }

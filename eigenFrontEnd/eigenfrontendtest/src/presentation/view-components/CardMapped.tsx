@@ -4,7 +4,7 @@ import {Card} from "antd"
 
 export const CardMapped: React.FC<PageProps> = ({data}) => {
     return (
-        <div className="bg-inherit text-inherit">
+        <div className="bg-inherit text-inherit" data-testid={`card-mapped${data.id}`}>
             <Card style={{
                     width: 300,
                     textAlign: "left"

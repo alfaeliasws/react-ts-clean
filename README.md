@@ -1,3 +1,10 @@
+# Footage
+
+
+https://user-images.githubusercontent.com/105652124/207789492-35f9de04-1c90-41b2-8647-faf5bc930ead.mov
+
+
+
 # What to be noticed
 
 ## tsconfig.json

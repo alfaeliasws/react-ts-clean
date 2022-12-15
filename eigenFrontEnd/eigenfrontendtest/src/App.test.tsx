@@ -7,6 +7,11 @@ import userEvent from '@testing-library/user-event';
 import { Title } from './domain/entity/models/const/Title';
 import { allPostWithoutState } from './data/callAllPost';
 
+const intersectionObserverMock = () => ({
+  observe: () => null
+})
+window.IntersectionObserver = jest.fn().mockImplementation(intersectionObserverMock);
+
 //TESTED COMPONENT/VIEW: Container and Loading Page
 test('tests the loading renders', () => {
   render(<App />);
@@ -70,4 +75,8 @@ test("testing clicking the kembali-button ", async () => {
   })
 
 })
+
+afterAll(done => {
+  done();
+});
 

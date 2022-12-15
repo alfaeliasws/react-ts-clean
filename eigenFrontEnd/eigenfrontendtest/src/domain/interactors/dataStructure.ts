@@ -1,5 +1,4 @@
 import { Post } from "../entity/structures/postStructure"
-import { getPostText } from "../../data/GetPostText"
 
 export const dataImplementation = (array: Array<any>) => {
     const mappedArray = array.map((item, i): Post => {

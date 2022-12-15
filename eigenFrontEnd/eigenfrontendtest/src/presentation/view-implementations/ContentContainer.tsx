@@ -16,7 +16,7 @@ export const ContentContainer: React.FC<ContentContainerProps> = ({data}) => {
     }
 
     return (
-        <div className="mx-20 my-10" data-testid="content-container">
+        <div className="mx-36 my-10" data-testid="content-container">
             {
                 view === 99 ?
                     <MappedView data={data} onClick={handleView}/>:

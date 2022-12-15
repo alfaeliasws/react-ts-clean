@@ -2,8 +2,6 @@
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",
-    // "target": "esnext",
-    // "module": "commonjs",
     "lib": [
       "dom",
       "dom.iterable",
@@ -20,7 +18,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "preserve"
   },
   "include": [
     "src",

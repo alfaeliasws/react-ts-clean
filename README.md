@@ -36,6 +36,6 @@ https://user-images.githubusercontent.com/105652124/207789492-35f9de04-1c90-41b2
 * But it is great to use it, because my react component forced to not to be to long
 * For the adaptation of the architecture I just tried to follow the guide article of what each folder does
 
-# UI and UX
-* I don't do many thing in this UI, to make it all simple so the other party knows the functionality that I use
+## UI and UX
+* I don't do many thing in this UI, to make it all simple so the other party focus on the programming that I create
 * UX wise, I do my best to make the experience felt by the end user, by using interactive functionality (interaction observer and hover transition)
